@@ -2,87 +2,17 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "ShipAny Two",
+      "title": "SceneCraft",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two",
+        "alt": "SceneCraft",
         "width": 100,
         "height": 100
       },
       "url": "/"
     },
     "nav": {
-      "items": [
-        {
-          "title": "Features",
-          "url": "/#features",
-          "icon": "Sparkles"
-        },
-        {
-          "title": "Showcases",
-          "url": "/showcases",
-          "icon": "Box"
-        },
-        {
-          "title": "Pricing",
-          "url": "/pricing",
-          "icon": "DollarSign"
-        },
-        {
-          "title": "AI",
-          "icon": "RiRobot2Line",
-          "children": [
-            {
-              "title": "AI Image Generator",
-              "description": "Use AI to generate images",
-              "url": "/ai-image-generator",
-              "icon": "RiImage2Line"
-            },
-            {
-              "title": "AI Music Generator",
-              "description": "Use AI to generate music",
-              "url": "/ai-music-generator",
-              "icon": "RiMusic2Line"
-            },
-            {
-              "title": "AI Video Generator",
-              "description": "Use AI to generate videos",
-              "url": "/ai-video-generator",
-              "icon": "RiVideoLine"
-            },
-            {
-              "title": "AI Chatbot",
-              "description": "Chat with AI chatbot",
-              "url": "/chat",
-              "icon": "RiMessage2Line"
-            }
-          ]
-        },
-        {
-          "title": "Content",
-          "icon": "FileText",
-          "children": [
-            {
-              "title": "Blog",
-              "description": "Read Blog Posts",
-              "url": "/blog",
-              "icon": "Newspaper"
-            },
-            {
-              "title": "Updates",
-              "description": "Read Update Logs",
-              "url": "/updates",
-              "icon": "Clock"
-            },
-            {
-              "title": "Docs",
-              "description": "Read Documentation",
-              "url": "/docs",
-              "icon": "BookOpenText"
-            }
-          ]
-        }
-      ]
+      "items": []
     },
     "buttons": [],
     "user_nav": {
@@ -105,6 +35,15 @@
     "show_sign": true,
     "show_theme": true,
     "show_locale": true
+  },
+  "generator": {
+    "id": "generator",
+    "title": "Generate Your E-commerce Images",
+    "description": "Upload product image, and enter product introduction.",
+    "input_placeholder": "Describe the image you want to generate...",
+    "button_text": "Generate",
+    "upload_text": "Click or drag image to upload",
+    "upload_subtext": "Supports JPG, PNG, WEBP"
   },
   "hero": {
     "id": "hero",
@@ -515,11 +454,11 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "ShipAny Two",
+      "title": "SceneCraft",
       "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two",
+        "alt": "SceneCraft",
         "width": 1024,
         "height": 1024
       },

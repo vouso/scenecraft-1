@@ -9,6 +9,7 @@ import {
   FeaturesList,
   FeaturesMedia,
   FeaturesStep,
+  Generator,
   Hero,
   Logos,
   Showcases,
@@ -45,6 +46,8 @@ export default async function DynamicPage({
           switch (block) {
             case 'hero':
               return <Hero key={sectionKey} section={section} />;
+            case 'generator':
+              return <Generator key={sectionKey} section={section} />;
             case 'logos':
               return <Logos key={sectionKey} section={section} />;
             case 'features':

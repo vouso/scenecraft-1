@@ -15,19 +15,7 @@ export default async function LandingPage({
 
   const t = await getTranslations('landing');
 
-  const showSections = [
-    'hero',
-    'logos',
-    'introduce',
-    'benefits',
-    'usage',
-    'features',
-    'stats',
-    'testimonials',
-    'subscribe',
-    'faq',
-    'cta',
-  ];
+  const showSections = ['generator'];
 
   // build page sections
   const page: DynamicPage = {
