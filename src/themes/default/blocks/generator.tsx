@@ -83,9 +83,9 @@ export function Generator({ section }: { section: any }) {
       <div className="container max-w-4xl">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
-            <p className="text-muted-foreground text-center text-lg">
+            <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl text-center">
               {section.description}
-            </p>
+            </h1>
           </div>
 
           <div className="flex flex-col gap-6">
