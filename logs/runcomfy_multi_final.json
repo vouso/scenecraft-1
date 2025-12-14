@@ -1,0 +1,137 @@
+{
+  "requests": [
+    {
+      "raw": {
+        "request_id": "323b27e1-2de2-41b1-bf6e-a4b4602e1a75",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/323b27e1-2de2-41b1-bf6e-a4b4602e1a75/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/323b27e1-2de2-41b1-bf6e-a4b4602e1a75/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/323b27e1-2de2-41b1-bf6e-a4b4602e1a75/cancel"
+      },
+      "requestId": "323b27e1-2de2-41b1-bf6e-a4b4602e1a75",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/323b27e1-2de2-41b1-bf6e-a4b4602e1a75/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/323b27e1-2de2-41b1-bf6e-a4b4602e1a75/result",
+      "result": {
+        "request_id": "323b27e1-2de2-41b1-bf6e-a4b4602e1a75",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:09.828837+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "b9a9e025-5e27-4f11-8c89-2ffd338a6a38",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/b9a9e025-5e27-4f11-8c89-2ffd338a6a38/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/b9a9e025-5e27-4f11-8c89-2ffd338a6a38/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/b9a9e025-5e27-4f11-8c89-2ffd338a6a38/cancel"
+      },
+      "requestId": "b9a9e025-5e27-4f11-8c89-2ffd338a6a38",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/b9a9e025-5e27-4f11-8c89-2ffd338a6a38/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/b9a9e025-5e27-4f11-8c89-2ffd338a6a38/result",
+      "result": {
+        "request_id": "b9a9e025-5e27-4f11-8c89-2ffd338a6a38",
+        "status": "completed",
+        "created_at": "2025-12-14T08:47:11.089103+00:00",
+        "output": {
+          "image": "https://playgrounds-storage-public.runcomfy.net/eNpLNkg2sExNStE1T01J1jWxMEvUtUhJTNJNNU5ONDQ2NE5NMTYAAMPAClQ%3D/eNozMjAy1TU00jU0CTGwsDIxtzI10jM1NTQ3NdA2MLAyMAAAa1cGeA%3D%3D/output/021765702033585d6d3168ae2bcee8e5f54d16f5503dede949018_0.jpeg"
+        },
+        "completed_at": "2025-12-14T08:47:55.344081+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "55b912f8-0efb-478a-9e27-f062132ece14",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/55b912f8-0efb-478a-9e27-f062132ece14/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/55b912f8-0efb-478a-9e27-f062132ece14/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/55b912f8-0efb-478a-9e27-f062132ece14/cancel"
+      },
+      "requestId": "55b912f8-0efb-478a-9e27-f062132ece14",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/55b912f8-0efb-478a-9e27-f062132ece14/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/55b912f8-0efb-478a-9e27-f062132ece14/result",
+      "result": {
+        "request_id": "55b912f8-0efb-478a-9e27-f062132ece14",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:12.447407+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "e7ce7ae5-75bb-442a-a3ae-7596dfe652b7",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/e7ce7ae5-75bb-442a-a3ae-7596dfe652b7/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/e7ce7ae5-75bb-442a-a3ae-7596dfe652b7/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/e7ce7ae5-75bb-442a-a3ae-7596dfe652b7/cancel"
+      },
+      "requestId": "e7ce7ae5-75bb-442a-a3ae-7596dfe652b7",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/e7ce7ae5-75bb-442a-a3ae-7596dfe652b7/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/e7ce7ae5-75bb-442a-a3ae-7596dfe652b7/result",
+      "result": {
+        "request_id": "e7ce7ae5-75bb-442a-a3ae-7596dfe652b7",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:13.816546+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "863aae76-310f-4527-9de5-41d00fb3d381",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/863aae76-310f-4527-9de5-41d00fb3d381/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/863aae76-310f-4527-9de5-41d00fb3d381/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/863aae76-310f-4527-9de5-41d00fb3d381/cancel"
+      },
+      "requestId": "863aae76-310f-4527-9de5-41d00fb3d381",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/863aae76-310f-4527-9de5-41d00fb3d381/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/863aae76-310f-4527-9de5-41d00fb3d381/result",
+      "result": {
+        "request_id": "863aae76-310f-4527-9de5-41d00fb3d381",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:15.270201+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "d5dbcc65-29d6-4ed4-974b-a6f670f5c456",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/d5dbcc65-29d6-4ed4-974b-a6f670f5c456/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/d5dbcc65-29d6-4ed4-974b-a6f670f5c456/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/d5dbcc65-29d6-4ed4-974b-a6f670f5c456/cancel"
+      },
+      "requestId": "d5dbcc65-29d6-4ed4-974b-a6f670f5c456",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/d5dbcc65-29d6-4ed4-974b-a6f670f5c456/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/d5dbcc65-29d6-4ed4-974b-a6f670f5c456/result",
+      "result": {
+        "request_id": "d5dbcc65-29d6-4ed4-974b-a6f670f5c456",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:16.848900+00:00"
+      },
+      "done": true,
+      "status": "in_progress"
+    },
+    {
+      "raw": {
+        "request_id": "d3be3df7-9786-44fb-9dc7-483aa704db7b",
+        "status_url": "https://model-api.runcomfy.net/v1/requests/d3be3df7-9786-44fb-9dc7-483aa704db7b/status",
+        "result_url": "https://model-api.runcomfy.net/v1/requests/d3be3df7-9786-44fb-9dc7-483aa704db7b/result",
+        "cancel_url": "https://model-api.runcomfy.net/v1/requests/d3be3df7-9786-44fb-9dc7-483aa704db7b/cancel"
+      },
+      "requestId": "d3be3df7-9786-44fb-9dc7-483aa704db7b",
+      "status_url": "https://model-api.runcomfy.net/v1/requests/d3be3df7-9786-44fb-9dc7-483aa704db7b/status",
+      "result_url": "https://model-api.runcomfy.net/v1/requests/d3be3df7-9786-44fb-9dc7-483aa704db7b/result",
+      "result": {
+        "request_id": "d3be3df7-9786-44fb-9dc7-483aa704db7b",
+        "status": "in_progress",
+        "created_at": "2025-12-14T08:47:18.016742+00:00"
+      },
+      "done": true,
+      "status": "in_queue"
+    }
+  ],
+  "images": [
+    "https://playgrounds-storage-public.runcomfy.net/eNpLNkg2sExNStE1T01J1jWxMEvUtUhJTNJNNU5ONDQ2NE5NMTYAAMPAClQ%3D/eNozMjAy1TU00jU0CTGwsDIxtzI10jM1NTQ3NdA2MLAyMAAAa1cGeA%3D%3D/output/021765702033585d6d3168ae2bcee8e5f54d16f5503dede949018_0.jpeg"
+  ]
+}

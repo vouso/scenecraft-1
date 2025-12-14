@@ -1,0 +1,13 @@
+{
+  "time": 1765701562658,
+  "status": 200,
+  "body": {
+    "request_id": "be89f715-c630-44a3-8b4a-4584454549bd",
+    "status": "completed",
+    "created_at": "2025-12-14T08:38:35.556806+00:00",
+    "output": {
+      "image": "https://playgrounds-storage-public.runcomfy.net/eNpLNkg2sExNStE1T01J1jWxMEvUtUhJTNJNNU5ONDQ2NE5NMTYAAMPAClQ%3D/eNozMjAy1TU00jU0CTGwsDK2tDI017MwNDO3NNI2MLAyMAAAa8kGhA%3D%3D/output/02176570151741512014becacfaf8a37949eaec3c813975c0fc8b_0.jpeg"
+    },
+    "completed_at": "2025-12-14T08:39:21.009655+00:00"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": {
+    "request_id": "be89f715-c630-44a3-8b4a-4584454549bd",
+    "status_url": "https://model-api.runcomfy.net/v1/requests/be89f715-c630-44a3-8b4a-4584454549bd/status",
+    "result_url": "https://model-api.runcomfy.net/v1/requests/be89f715-c630-44a3-8b4a-4584454549bd/result",
+    "cancel_url": "https://model-api.runcomfy.net/v1/requests/be89f715-c630-44a3-8b4a-4584454549bd/cancel"
+  }
+}

@@ -4,6 +4,7 @@ import {
   GeminiProvider,
   KieProvider,
   ReplicateProvider,
+  RunComfyProvider,
 } from '@/extensions/ai';
 import { Configs, getAllConfigs } from '@/shared/models/config';
 
@@ -44,6 +45,16 @@ export function getAIManagerWithConfigs(configs: Configs) {
     aiManager.addProvider(
       new GeminiProvider({
         apiKey: configs.gemini_api_key,
+      })
+    );
+  }
+
+  const runcomfyApiKey = configs.runcomfy_api_key || process.env.RUNCOMFY_API_KEY;
+  if (runcomfyApiKey) {
+    aiManager.addProvider(
+      new RunComfyProvider({
+        apiKey: runcomfyApiKey,
+        customStorage: configs.runcomfy_custom_storage === 'true',
       })
     );
   }

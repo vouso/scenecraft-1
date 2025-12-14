@@ -127,6 +127,18 @@ const MODEL_OPTIONS = [
     provider: 'kie',
     scenes: ['text-to-image', 'image-to-image'],
   },
+  {
+    value: 'blackforestlabs/flux-1-kontext/pro/edit',
+    label: 'Flux 1 Kontext',
+    provider: 'runcomfy',
+    scenes: ['image-to-image'],
+  },
+  {
+    value: 'bytedance/seedream-4-5/edit',
+    label: 'Seedream 4.5 Edit',
+    provider: 'runcomfy',
+    scenes: ['image-to-image'],
+  },
 ];
 
 const PROVIDER_OPTIONS = [
@@ -145,6 +157,10 @@ const PROVIDER_OPTIONS = [
   {
     value: 'kie',
     label: 'Kie',
+  },
+  {
+    value: 'runcomfy',
+    label: 'RunComfy',
   },
 ];
 
@@ -512,6 +528,11 @@ export function ImageGenerator({
         options.image_input = referenceImageUrls;
       }
 
+      // request 7 images for RunComfy by default (e-commerce use-case)
+      if (provider === 'runcomfy') {
+        options.num_images = 7;
+      }
+
       const resp = await fetch('/api/ai/generate', {
         method: 'POST',
         headers: {
@@ -715,12 +736,12 @@ export function ImageGenerator({
                 {!isMounted ? (
                   <Button className="w-full" disabled size="lg">
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t('loading')}
+                    <span>{t('loading')}</span>
                   </Button>
                 ) : isCheckSign ? (
                   <Button className="w-full" disabled size="lg">
                     <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    {t('checking_account')}
+                    <span>{t('checking_account')}</span>
                   </Button>
                 ) : user ? (
                   <Button
@@ -738,12 +759,12 @@ export function ImageGenerator({
                     {isGenerating ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        {t('generating')}
+                        <span>{t('generating')}</span>
                       </>
                     ) : (
                       <>
                         <Sparkles className="mr-2 h-4 w-4" />
-                        {t('generate')}
+                        <span>{t('generate')}</span>
                       </>
                     )}
                   </Button>
@@ -754,7 +775,7 @@ export function ImageGenerator({
                     onClick={() => setIsShowSignModal(true)}
                   >
                     <User className="mr-2 h-4 w-4" />
-                    {t('sign_in_to_generate')}
+                    <span>{t('sign_in_to_generate')}</span>
                   </Button>
                 )}
 
@@ -874,9 +895,11 @@ export function ImageGenerator({
                       <ImageIcon className="text-muted-foreground h-10 w-10" />
                     </div>
                     <p className="text-muted-foreground">
-                      {isGenerating
-                        ? t('ready_to_generate')
-                        : t('no_images_generated')}
+                      {isGenerating ? (
+                        <span>{t('ready_to_generate')}</span>
+                      ) : (
+                        <span>{t('no_images_generated')}</span>
+                      )}
                     </p>
                   </div>
                 )}

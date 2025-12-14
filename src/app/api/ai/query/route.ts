@@ -34,10 +34,13 @@ export async function POST(req: Request) {
       return respErr('invalid ai provider');
     }
 
+    const parsedTaskInfo = task.taskInfo ? JSON.parse(task.taskInfo) : undefined;
+
     const result = await aiProvider?.query?.({
       taskId: task.taskId,
       mediaType: task.mediaType,
       model: task.model,
+      taskInfo: parsedTaskInfo,
     });
 
     if (!result?.taskStatus) {
